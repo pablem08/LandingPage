@@ -7,6 +7,7 @@
   text-decoration: none;
   list-style: none;
 }
+/*********** HEADER ***********/
 
 header {
   display: flex;
@@ -23,6 +24,7 @@ header {
   height: 60px;
 }
 
+/*********** NAVBAR ***********/
 .navbar,
 .list-navbar {
   display: flex;
@@ -46,6 +48,7 @@ header {
   padding: 55px;
 }
 
+/*********** MAIN ***********/
 main {
   display: flex;
   flex-direction: column;
@@ -54,6 +57,7 @@ main {
   width: 100%;
 }
 
+/*********** HERO ***********/
 #hero {
   margin-top: 40px;
   max-width: 1400px;
@@ -117,6 +121,7 @@ main {
   justify-content: center;
 }
 
+/*********** ABOUT ***********/
 #about {
   padding: 70px 0;
   max-width: 1200px;
@@ -131,4 +136,105 @@ main {
   font-size: 16px;
   width: 55%;
   text-align: center;
+}
+
+/*********** CARDS ***********/
+#cards {
+  /* border: 1px solid green; */
+  padding: 70px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+#cards h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.cards-parrafo {
+  color: var(--text-grey);
+  font-size: 16px;
+  width: 80%;
+  text-align: center;
+}
+
+.cards-container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-info {
+  /* border: 1px solid blue; */
+  width: 200px;
+  height: 200px;
+  padding: 40px 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 20px;
+}
+
+.card-info img {
+  width: 50px;
+}
+
+.card-info h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card-info p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/*********** CONTACT ***********/
+#contacto {
+  border: 1px solid orange;
+  margin-top: 40px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+#contacto h2{
+  font-size: 32px;
+  width: 60%;
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+.contacto-container {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contacto-info{
+  width: 200px;
+  height: 200px;
+  padding: 40px 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+
+  gap: 20px;
 }
