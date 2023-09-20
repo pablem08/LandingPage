@@ -1,130 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page</title>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
+  <body>
+    <!-- HEADER - NAVBAR -->
+    <header>
+      <img src="img/logo.png" alt="Logo de la página" class="logo-empresa" />
+      <nav class="navbar">
+        <ul class="list-navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Clientes</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <!-- HEADER - NAVBAR -->
-  <header>
-    <img src="img/logo.png" alt="Logo de la página" class="logo-empresa" />
-    <nav class="navbar">
-      <ul class="list-navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Clientes</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+      <!-- HERO -->
+      <section id="hero">
+        <div class="hero-info">
+          <h1>El futuro empieza ahora...</h1>
+          <p>
+            El objetivo de esta pagina es alcanzar todas las habilidades de
+            desarrollo web, para mejorar profesionalmente.
+          </p>
+          <div class="botones-container">
+            <a href="#"><button class="boton-call">CALL TO ACTION</button></a>
+            <a href="#"><button class="boton-learn">LEARN MORE</button></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="img/imagen-del-hero.png" alt="Imagen del hero" />
+        </div>
+      </section>
 
-  <main>
-    <!-- HERO -->
-    <section id="hero">
-      <div class="hero-info">
-        <h1>El futuro empieza ahora...</h1>
+      <!-- ABOUT -->
+      <section id="about">
         <p>
-          El objetivo de esta pagina es alcanzar todas las habilidades de desarrollo web, para mejorar profesionalmente.
+          Esta página trata de mostrar un poco de las habilidades que estamos
+          desarrollando en el cursado de NUCBA - Programación Front End, creando
+          aplicaciones web desde el lado del usuario. De esta manera tratamos de
+          comenzar a construir nuestro portfolio personal.
         </p>
-        <div class="botones-container">
-          <a href="#"><button class="boton-call">CALL TO ACTION</button></a>
-          <a href="#"><button class="boton-learn">LEARN MORE</button></a>
+      </section>
+
+      <!-- CARDS -->
+      <section id="cards">
+        <h2>Our Advantages</h2>
+
+        <p class="cards-parrafo">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+          provident quos saepe quam deleniti.
+        </p>
+
+        <div class="cards-container">
+          <div class="card-info">
+            <img src="img/html-5.png" alt="Imagen Benefit 1" />
+            <h3>Benefit 1</h3>
+            <p>
+              Beneficio explicando por qué deberian preferirte a vos y a tu
+              laburo en vez de elegir otro.
+            </p>
+          </div>
+
+          <div class="card-info">
+            <img src="img/css3.png" alt="Imagen Benefit 2" />
+            <h3>Benefit 2</h3>
+            <p>
+              Beneficio explicando por qué deberian preferirte a vos y a tu
+              laburo en vez de elegir otro.
+            </p>
+          </div>
+
+          <div class="card-info">
+            <img src="img/github.png" alt="Imagen Benefit 3" />
+            <h3>Benefit 3</h3>
+            <p>
+              Beneficio explicando por qué deberian preferirte a vos y a tu
+              laburo en vez de elegir otro.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="hero-image">
-        <img src="img/imagen-del-hero.png" alt="Imagen del hero" />
-      </div>
-    </section>
+      </section>
 
-    <!-- ABOUT -->
-    <section id="about">
-      <p>Esta página trata de mostrar un poco de las habilidades que estamos desarrollando en el cursado de NUCBA -
-        Programación Front End, creando aplicaciones web desde el lado del usuario. De esta manera tratamos de comenzar
-        a construir nuestro portfolio personal. </p>
-    </section>
+      <!-- CONTACTO -->
+      <section id="contacto">
+        <div class="contacto-container">
+          <h2>Contacto Us</h2>
 
-    <!--CARDS-->
-    <section id="cards">
-      <h2>Our Advantages</h2>
+          <div class="contacto-info">
+            <h3>Jupiter, Australia</h3>
 
-      <p class="cards-parrafo">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia provident quos saepe quam deleniti.
-      </p>
+            <ul class="contacto-list">
+              <li>
+                <img src="img/ubicacion.png" alt="imagen ubicacion" />
+                <span>Calle 123</span>
+              </li>
+              <li>
+                <img src="img/correo.png" alt="icono correo" /><span
+                  >mail@mail.com</span
+                >
+              </li>
+              <li>
+                <img src="img/telefono.png" alt="icono telefono" /><span
+                  >02616965323</span
+                >
+              </li>
+            </ul>
+          </div>
 
-      <div class="cards-container">
+          <div class="contacto-info">
+            <h3>Riveros, Pablo</h3>
 
-        <div class="card-info">
-          <img src="img/html-5.png" alt="Imagen Benefit 1" />
-          <h3>Benefit 1</h3>
-          <p>
-            Beneficio explicando por qué deberian preferirte a vos y a tu
-            laburo en vez de elegir otro.
-          </p>
+            <ul class="contacto-list">
+              <li>
+                <img src="img/ubicacion.png" alt="Icono de ubicación" /><span
+                  >Anzorena 327</span
+                >
+              </li>
+              <li>
+                <img src="img/correo.png" alt="Icono de correo" />
+                <span>pablem08@gmail.com</span>
+              </li>
+              <li>
+                <img src="img/telefono.png" alt="Icono de teléfono" />
+                <span>02616965323</span>
+              </li>
+            </ul>
+          </div>
+          <div class="contacto-redes">
+            <img src="img/gorjeo.png" alt="Icono de twitter" />
+            <img src="img/instagram.png" alt="Icono de instagram" />
+            <img src="img/facebook.png" alt="Icono de facebook" />
+          </div>
         </div>
 
-
-        <div class="card-info">
-          <img src="img/css3.png" alt="Imagen Benefit 2" />
-          <h3>Benefit 2</h3>
-          <p>
-            Beneficio explicando por qué deberian preferirte a vos y a tu
-            laburo en vez de elegir otro.
-          </p>
+        <div class="contacto-image">
+          <img src="img/Mapa.png" alt="Imagen del mapa" />
         </div>
+      </section>
+    </main>
 
-
-
-        <div class="card-info">
-          <img src="img/github.png" alt="Imagen Benefit 3" />
-          <h3>Benefit 3</h3>
-          <p>
-            Beneficio explicando por qué deberian preferirte a vos y a tu
-            laburo en vez de elegir otro.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!--CONTACTO-->
-    <section id="contacto">
-
-      <div class="contacto-container">
-
-        <h2>Contacto</h2>
-
-        <div class="contacto-info">
-
-          <h3>Jupiter, Australia</h3>
-
-          <ul class="lista-contacto-1">
-            <li><img src="img/ubicacion.png" alt="imagen ubicacion"> Calle 123</li>
-            <li><img src="img/correo.png" alt="icono correo">priveros@godoycruz.gob.ar</li>
-            <li><img src="img/telefono.png" alt="icono telefono">02616965323</li>
-          </ul>
-
-        </div>
-
-        <div class="contacto-info">
-
-          <h3>Riveros, Pablo</h3>
-
-          <ul>
-            <li><img src="img/ubicacion.png" alt="imagen ubicacion">Anzorena 327</li>
-            <li><img src="img/correo.png" alt="icono correo">pablem08@gmail.com</li>
-            <li><img src="img/telefono.png" alt="icono telefono"> 02616965323</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="contacto-image">
-        <img src="img/Mapa.png" alt="">
-      </div>
-    </section>
-  </main>
-</body>
-
+    <!-- FOOTER -->
+    <footer>
+      <img src="img/Logo-Footer.png" alt="Logo del footer" />
+      <p>Copyright - Pablo Riveros</p>
+    </footer>
+  </body>
 </html>
