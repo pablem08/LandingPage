@@ -94,20 +94,37 @@
     gap: 80px;
   }
   #contacto h2 {
+    display: flex;
+    justify-content: left;
     font-size: 32px;
     font-weight: 800;
-    padding-left: 10%;
+    padding-left: 15%;
+    /* margin-left: 10px; */
   }
   .contacto-container {
-    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 68%;
     padding-left: 76px;
   }
 
   .contacto-container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 32px;
     font-weight: 800;
     width: 100%;
+  }
+
+  .contacto-redes {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    width: 320px;
   }
 
   .contacto-image img {
@@ -128,41 +145,48 @@
   }
 
   /***** CONTACTO *****/
-  #contacto{
+  #contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .contacto-container{
+  #contacto h2{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .contacto-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .contacto-info h3{
-    padding-left: 10%;
-  }
-  .contacto-list{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     padding-left: 10%;
+    width: 65%;
   }
 
-  .contacto-redes{
+  .contacto-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+  }
+  .contacto-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contacto-info h3 {
+    padding-left: 10%;
+  }
+  .contacto-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+  }
+
+  .contacto-redes {
+    display: flex;
+    justify-content: left;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
   }
 
-  .contacto-redes img{
-    width: 60%;
+  .contacto-redes img {
+    width: 40%;
   }
 }
