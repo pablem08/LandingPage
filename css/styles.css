@@ -16,14 +16,16 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 65px;
-  padding: 0px 55px;
+  padding: 0px 30px;
   border-bottom: 1px solid rgb(182, 182, 182);
   position: fixed;
-  width: 95%;
+  width: 100%;
+  top: 0;
+  z-index: 2;
 }
 
 .logo-empresa {
-  height: 60px;
+  height: 80%;
 }
 
 /*********** NAVBAR ***********/
@@ -47,9 +49,13 @@ header {
 
 .list-navbar {
   gap: 30px;
-  padding: 55px;
+  padding-right: 150px;
 }
 
+#menu-toggle,
+.menu-label {
+  display: none;
+}
 /*********** MAIN ***********/
 main {
   display: flex;
@@ -242,6 +248,10 @@ main {
   gap: 20px;
 }
 
+.contacto-info h3{
+  font-size: 14px;
+}
+
 .contacto-list {
   align-items: start;
 }
@@ -250,20 +260,26 @@ main {
   margin-bottom: 10px;
 }
 
+.contacto-list img{
+  width: 75%;
+}
+
 .contacto-list span {
   position: absolute;
   padding: 7px 0 0 20px;
+  font-size: 12px;
+  color: var(--text-grey);
 }
 
-.contacto-redes{
+.contacto-redes {
   display: flex;
   justify-content: left;
   width: 200px;
 }
 
-.contacto-redes img{
+.contacto-redes img {
   margin-left: 30px;
-  width: 15%;
+  width: 40%;
 }
 
 .contacto-image img {
@@ -286,7 +302,7 @@ footer img {
   height: 70px;
 }
 
-footer p{
+footer p {
   color: var(--text-grey);
   font-size: 16px;
   width: 80%;
